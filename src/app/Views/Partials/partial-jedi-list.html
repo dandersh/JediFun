@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li ui-sref-active="selected" class="list-group-item"ng-repeat="jedi in Jedi.jediList">
+        <span ng-click="Jedi.showDescription(jedi.description, jedi.color)" class="description-list {{jedi.color}}">{{ jedi.name}}</span><span class="badge">{{jedi.rank}}</span>
+    </li>
+    <span class="description">Background:</span><p ng-bind="Jedi.descriptionText" class="{{Jedi.color}}" ></p>
+    <div class="details" ui-view></div>
+</ul>

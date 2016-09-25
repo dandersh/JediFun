@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li ui-sref-active="selected" class="list-group-item" ng-repeat="sith in Sith.sithList" ng-init="count=0">
+        <span ui-sref="sith.list({sith: sith.formattedName})" class="description-list {{sith.color}}">{{sith.name}}</span><editable-text ng-click="Sith.canEdit()">{{sith.description}}</editable-text><span class="badge">{{sith.rank}}</span>
+
+    </li>
+    <div class="details" ui-view></div>
+</ul>

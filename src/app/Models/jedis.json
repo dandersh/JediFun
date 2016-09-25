@@ -1,0 +1,6 @@
+[
+  {"name": "Luke Skywalker", "id": 1, "rank": "Master", "color": "green", "description": "The best ever"},
+  {"name": "Quinlan Vos", "id": 2, "rank": "Master", "color": "green","description": "My personal favorite"},
+  {"name": "Obi-Wan Kenobi", "id": 3, "rank": "Master", "color": "blue", "description": "Severely underrated" },
+  {"name": "Anakin Skywalker", "id": 4, "rank": "Knight", "color": "blue", "description": "The original bad boy"}
+]

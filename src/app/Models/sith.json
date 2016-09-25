@@ -1,0 +1,5 @@
+[
+  {"name": "Darth Sidious", "id": 1, "rank": "Lord", "color" : "red", "description": "Really should have been more prominent in prequels"},
+  {"name": "Darth Vader", "id": 2, "rank": "Apprentice", "color" : "red", "description": "Brought balance to the force in an ironic sort of way"},
+  {"name": "Count Dooku", "id": 3, "rank": "Apprentice", "color" : "red", "description": "Former padawan of Yoda" }
+]

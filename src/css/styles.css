@@ -1,0 +1,36 @@
+.navbar-inverse .navbar-nav > li > a {
+    padding-bottom: 8px;
+}
+
+.navbar-inverse .navbar-nav > li > a.JediFun-ActiveNav {
+    border-bottom: 2px solid royalblue;
+    color: royalblue;
+}
+
+.description-list {
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+.nav > li > a {
+    display: block;
+}
+
+.sith-description {
+    margin: 0 0 0 15px;
+}
